@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tourism Travel</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+  <body class="poppins-light">
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <a class="header-logo" href="#">
+            <img src="./graphics/logo.svg" alt="Логотип сайта компании" />
+          </a>
+          <ul class="navigation-list">
+            <li class="navigation-list_item">
+              <a class="navigation-list_item_link navigation-list_item_link_active" href="#">Home</a>
+            </li>
+            <li class="navigation-list_item">
+              <a class="navigation-list_item_link" href="#">Hotels</a>
+            </li>
+            <li class="navigation-list_item">
+              <a class="navigation-list_item_link" href="#">Restaurants</a>
+            </li>
+            <li class="navigation-list_item">
+              <a class="navigation-list_item_link" href="#">Tours</a>
+            </li>
+            <li class="navigation-list_item">
+              <a class="navigation-list_item_link" href="#">destinations</a>
+            </li>
+            <li class="navigation-list_item">
+              <a class="navigation-list_item_link" href="#">Activities</a>
+            </li>
+            <li class="navigation-list_item">
+              <a class="navigation-list_item_link" href="#">Contact</a>
+            </li>
+          </ul>
+          <div class="user">
+            <div class="user-salute">
+              <p>Holla,</p>
+              <span class="user-salute-name">Ales Nesetril</span>
+            </div>
+            <div class="user-avatar">
+              <img src="./graphics/user.jpg" alt="Аватар пользователя" />
+            </div>
+          </div>
+
+          <button class="mobile-nav-btn">
+            <div class="nav-icon"></div>
+          </button>
+
+
+
+        </nav>
+
+        <div class="header-section_1">
+          <h1 class="header-section_1-title">Discover the most engaging places</h1>
+
+          <button class="header-section_1-button">
+            <img src="./graphics/icon-earth-mini.svg" alt="иконка с изображением планеты" width="24" height="24" />
+            <span class="header-section_1-text">Discover on 3D Globe</span>
+          </button>
+        </div>
+
+        <div class="header-section_2">
+          <form class="form header-section_2-form" action="" method="">
+            <div class="header-section_2-form-container">
+              <img
+                src="./graphics/icon-location.svg"
+                alt="иконка локация"
+                width="24px"
+                height="24px"
+                class="form-icon"
+              />
+              <span class="form-composition">
+                <label for="destinations" class="label">Location</label>
+                <select name="destinations" id="destinations" class="select">
+                  <option value="All">Explore nearby destinations</option>
+                  <option value="1">option-1</option>
+                  <option value="2">option-2</option>
+                  <option value="3">option-3</option>
+                  <option value="4">option-4</option>
+                  <option value="5">option-5</option>
+                </select>
+              </span>
+            </div>
+
+            <div class="header-section_2-form-container">
+              <img
+                src="./graphics/icon-activity.svg"
+                alt="иконка активность"
+                width="24px"
+                height="24px"
+                class="form-icon"
+              />
+              <span class="form-composition">
+                <label for="Activities" class="label">Activity</label>
+                <select name="Activities" id="Activities" class="select">
+                  <option value="All">All Activities</option>
+                  <option value="1">option-1</option>
+                  <option value="2">option-2</option>
+                  <option value="3">option-3</option>
+                  <option value="4">option-4</option>
+                  <option value="5">option-5</option>
+                </select>
+              </span>
+            </div>
+
+            <div class="header-section_2-form-container">
+              <img
+                src="./graphics/icon-calendar.svg"
+                alt="иконка календарь"
+                width="24px"
+                height="24px"
+                class="form-icon"
+              />
+              <span class="form-composition">
+                <label for="When" class="label label-date">When</label>
+                <input type="date" class="select" id="When" />
+              </span>
+            </div>
+
+            <div class="header-section_2-form-container">
+              <img
+                src="./graphics/icon-calendar.svg"
+                alt="иконка гость"
+                width="24px"
+                height="24px"
+                class="form-icon"
+              />
+              <span class="form-composition">
+                <label for="Guests" class="label">Guests</label>
+                <select name="Guests" id="Guests" class="select">
+                  <option value="All">1 guest</option>
+                  <option value="1">2 guest</option>
+                  <option value="2">3 guest</option>
+                  <option value="3">4 guest</option>
+                  <option value="4">5 guest</option>
+                  <option value="5">6 guest</option>
+                </select>
+              </span>
+            </div>
+            <button class="button-search">
+              <img src="./graphics/icon-search.svg" alt="кнопка поиска" width="24px" height="24px" />
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-section-1">
+        <div class="main-section-1-header">
+          <h1 class="main-section-1-title title">Popular Destinations</h1>
+        </div>
+
+        <div class="main-section-1-cards">
+          <div class="main-section-1-cards_1">
+            <a
+              href="https://yandex.ru/maps/geo/california/2240192609/?ll=-119.320017%2C37.422913&z=6"
+              class="main-section-1-cards_1_link"
+            >
+              <img src="./graphics/destination/01.jpg" alt="Big Sur" height="181px" width="203px" />
+              <h2 class="destination-cards-title">Big Sur</h2>
+              <p class="destination-cards-text">California, USA</p>
+            </a>
+          </div>
+
+          <div class="main-section-1-cards_2">
+            <a
+              href="https://yandex.ru/maps/geo/prescott/2239929420/?ll=-112.469540%2C34.544198&z=15.41"
+              class="main-section-1-cards_1_link"
+            >
+              <img src="./graphics/destination/02.jpg" alt="Prescott" height="181px" width="203px" />
+              <h2 class="destination-cards-title">Prescott</h2>
+              <p class="destination-cards-text">Arizona, USA</p>
+            </a>
+          </div>
+
+          <div class="main-section-1-cards_3">
+            <a
+              href="https://yandex.ru/maps/geo/fort_whipple/2239941693/?ll=-112.448987%2C34.554099&z=12.71"
+              class="main-section-1-cards_1_link"
+            >
+              <img src="./graphics/destination/03.jpg" alt="Fort Mayers" height="181px" width="203px" />
+              <h2 class="destination-cards-title">Fort Mayers</h2>
+              <p class="destination-cards-text">Florida, USA</p>
+            </a>
+          </div>
+
+          <div class="main-section-1-cards_4">
+            <a
+              href="https://yandex.ru/maps/geo/fort_whipple/2239941693/?ll=-112.448987%2C34.554099&z=12.71"
+              class="main-section-1-cards_1_link"
+            >
+              <img src="./graphics/destination/04.jpg" alt="Tucson" height="181px" width="203px" />
+              <h2 class="destination-cards-title">Tucson</h2>
+              <p class="destination-cards-text">Arizona, USA</p>
+            </a>
+          </div>
+
+          <div class="main-section-1-cards_5">
+            <a
+              href="https://yandex.ru/maps/geo/fort_whipple/2239941693/?ll=-112.448987%2C34.554099&z=12.71"
+              class="main-section-1-cards_1_link"
+            >
+              <img src="./graphics/destination/05.jpg" alt="St. Joseph" height="181px" width="203px" />
+              <h2 class="destination-cards-title">St. Joseph</h2>
+              <p class="destination-cards-text">Michigan, USA</p>
+            </a>
+          </div>
+
+          <div class="main-section-1-cards_6">
+            <a
+              href="https://yandex.ru/maps/geo/2233838214/?ll=-3.703579%2C40.477905&z=10.99"
+              class="main-section-1-cards_1_link"
+            >
+              <img src="./graphics/destination/06.jpg" alt="Madrid" height="181px" width="203px" />
+              <h2 class="destination-cards-title">Madrid</h2>
+              <p class="destination-cards-text">Spain</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <section class="main-section-2">
+        <div class="main-section-2-header">
+          <h1 class="main-section-1-title title">Hotels and Restaurants</h1>
+          <a class="main-section-2-title-button">
+            <p>View all</p>
+            <img src="./graphics/icons/arrow-more.svg" alt="показать все" width="13" height="13" />
+          </a>
+        </div>
+
+        <div class="main-section-2-cards">
+          <div class="main-section-2-cards_1">
+            <a href="#" class="main-section-2-cards_1_link">
+              <img
+                src="./graphics/hotels/01.jpg"
+                alt="Monastero Santa Rosa Hotel & Spa"
+                height="380px"
+                width="320px"
+              />
+            </a>
+            <h2 class="main-section-2-cards_title">Madrid</h2>
+            <div class="card-2-name-rating">
+              <img
+                src="./graphics/hotels/map.svg"
+                alt=""
+                class="card-2-name-rating_map"
+                width="16px"
+                height="16px"
+              />
+              <p class="card-2-name-rating_text">Salerno, Italy</p>
+              <img
+                src="./graphics/hotels/rating-1.svg"
+                alt=""
+                class="card-2-name-rating_rating"
+                width="88px"
+                height="16px"
+              />
+            </div>
+          </div>
+
+          <div class="main-section-2-cards_1">
+            <a href="#" class="main-section-2-cards_1_link">
+              <img src="./graphics/hotels/02.jpg" alt="Grand Hotel Tremezzo" height="380px" width="320px" />
+            </a>
+            <h2 class="main-section-2-cards_title">Grand Hotel Tremezzo</h2>
+            <div class="card-2-name-rating">
+              <img
+                src="./graphics/hotels/map.svg"
+                alt=""
+                class="card-2-name-rating_map"
+                width="16px"
+                height="16px"
+              />
+              <p class="card-2-name-rating_text">Lake Como, Italy</p>
+              <img
+                src="./graphics/hotels/rating-2.svg"
+                alt=""
+                class="card-2-name-rating_rating"
+                width="88px"
+                height="16px"
+              />
+            </div>
+          </div>
+
+          <div class="main-section-2-cards_1">
+            <a href="#" class="main-section-2-cards_1_link">
+              <img
+                src="./graphics/hotels/03.jpg"
+                alt="The Oberoi Udaivilas, Udaipur"
+                height="380px"
+                width="320px"
+              />
+            </a>
+            <h2 class="main-section-2-cards_title">The Oberoi Udaivilas, Udaipur</h2>
+            <div class="card-2-name-rating">
+              <img
+                src="./graphics/hotels/map.svg"
+                alt=""
+                class="card-2-name-rating_map"
+                width="16px"
+                height="16px"
+              />
+              <p class="card-2-name-rating_text">Udaipur, India</p>
+              <img
+                src="./graphics/hotels/rating-3.svg"
+                alt=""
+                class="card-2-name-rating_rating"
+                width="88px"
+                height="16px"
+              />
+            </div>
+          </div>
+
+          <div class="main-section-2-cards_1">
+            <a href="#" class="main-section-2-cards_1_link">
+              <img src="./graphics/hotels/04.jpg" alt="AKA Beverly Hills" height="380px" width="320px" />
+            </a>
+            <h2 class="main-section-2-cards_title">AKA Beverly Hills</h2>
+            <div class="card-2-name-rating">
+              <img
+                src="./graphics/hotels/map.svg"
+                alt=""
+                class="card-2-name-rating_map"
+                width="16px"
+                height="16px"
+              />
+              <p class="card-2-name-rating_text">Los Angeles, United States</p>
+              <img
+                src="./graphics/hotels/rating-4.svg"
+                alt=""
+                class="card-2-name-rating_rating"
+                width="88px"
+                height="16px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-section-3">
+        <div class="main-section-2-header main-section-3-header">
+          <h1 class="main-section-1-title title">Travel Tips and Advice</h1>
+          <a class="main-section-2-title-button">
+            <p>View all</p>
+            <img src="./graphics/icons/arrow-more.svg" alt="показать все" width="13" height="13" />
+          </a>
+        </div>
+
+        <div class="main-section-2-cards main-section-3-cards">
+          <div class="main-section-2-cards_1 main-section-3-cards-photo">
+            <a href="#" class="main-section-2-cards_1_link main-section-3-cards_link">
+              <img src="./graphics/tips/01.jpg" alt="East Village Ice Cream Crawl" height="380px" width="320px" />
+            </a>
+          </div>
+
+          <div class="main-section-2-cards_1 main-section-3-cards-description">
+            <h2 class="main-section-2-cards_title main-section-3-cards-description-title">
+              East Village Ice Cream Crawl
+            </h2>
+            <p class="main-section-3-cards-description-text">
+              We will stop at five different world-class ice cream shops on this 1.5 mile 1.5 hour tour. At each
+              ice cream store we'll explore the story behind the business and see what makes the ice cream unique
+              as you savor every…
+            </p>
+            <div class="main-section-3-cards-postinfo">
+              <section class="cards-postinfo cards-postinfo-date">
+                <img src="./graphics/icons/calendar-gray.svg" alt="date" width="16px" height="16px" />
+                <p class="cards-postinfo-text">Today</p>
+              </section>
+              <section class="cards-postinfo cards-postinfo-person">
+                <img src="./graphics/icons/user.svg" alt="date" width="16px" height="16px" />
+                <p class="cards-postinfo-text">James Calzoni</p>
+              </section>
+              <section class="cards-postinfo cards-postinfo-comments">
+                <img src="./graphics/icons/comment.svg" alt="date" width="16px" height="16px" />
+                <p class="cards-postinfo-text">17</p>
+              </section>
+            </div>
+          </div>
+
+          <div class="main-section-2-cards_1 main-section-3-cards-photo">
+            <a href="#" class="main-section-2-cards_1_link main-section-3-cards_link">
+              <img
+                src="./graphics/tips/02.jpg"
+                alt="Brooklyn Bridge cinematic photo walk"
+                height="380px"
+                width="320px"
+              />
+            </a>
+          </div>
+
+          <div class="main-section-2-cards_1 main-section-3-cards-description">
+            <h2 class="main-section-2-cards_title main-section-3-cards-description-title">
+              Brooklyn Bridge cinematic photo walk
+            </h2>
+            <p class="main-section-3-cards-description-text">
+              This experience takes place at the Brooklyn Bridge Park and Brooklyn Bridge, but I’m always open to
+              capture clients at different locations upon request for an additional charge.
+            </p>
+            <div class="main-section-3-cards-postinfo">
+              <section class="cards-postinfo cards-postinfo-date">
+                <img src="./graphics/icons/calendar-gray.svg" alt="date" width="16px" height="16px" />
+                <p class="cards-postinfo-text">Today</p>
+              </section>
+              <section class="cards-postinfo cards-postinfo-person">
+                <img src="./graphics/icons/user.svg" alt="date" width="16px" height="16px" />
+                <p class="cards-postinfo-text">Maria Philips</p>
+              </section>
+              <section class="cards-postinfo cards-postinfo-comments">
+                <img src="./graphics/icons/comment.svg" alt="date" width="16px" height="16px" />
+                <p class="cards-postinfo-text">2</p>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-section-4">
+        <div class="main-section-2-header main-section-4-header">
+          <h1 class="main-section-1-title title">Activities</h1>
+          <a class="main-section-2-title-button">
+            <p>View all</p>
+            <img src="./graphics/icons/arrow-more.svg" alt="показать все" width="13" height="13" />
+          </a>
+        </div>
+
+        <div class="main-section-2-cards main-section-4-cards">
+          <div class="main-section-2-cards_1">
+            <a href="#" class="main-section-2-cards_1_link">
+              <img
+                src="./graphics/activity/01.jpg"
+                alt="Monastero Santa Rosa Hotel & Spa"
+                height="380px"
+                width="320px"
+              />
+            </a>
+            <h2 class="main-section-2-cards_title">Madrid</h2>
+          </div>
+
+          <div class="main-section-2-cards_1">
+            <a href="#" class="main-section-2-cards_1_link">
+              <img
+                src="./graphics/activity/02.jpg"
+                alt="Monastero Santa Rosa Hotel & Spa"
+                height="380px"
+                width="320px"
+              />
+            </a>
+            <h2 class="main-section-2-cards_title">Climbing</h2>
+          </div>
+
+          <div class="main-section-2-cards_1">
+            <a href="#" class="main-section-2-cards_1_link">
+              <img
+                src="./graphics/activity/03.jpg"
+                alt="Monastero Santa Rosa Hotel & Spa"
+                height="380px"
+                width="320px"
+              />
+            </a>
+            <h2 class="main-section-2-cards_title">Skiing</h2>
+          </div>
+
+          <div class="main-section-2-cards_1">
+            <a href="#" class="main-section-2-cards_1_link">
+              <img
+                src="./graphics/activity/04.jpg"
+                alt="Monastero Santa Rosa Hotel & Spa"
+                height="380px"
+                width="320px"
+              />
+            </a>
+            <h2 class="main-section-2-cards_title">Hiking</h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-section-5">
+        <div class="section-5-container">
+          <div class="section-5-description">
+            <h2 class="section-5-description-title title">About Us</h2>
+            <p class="section-5-description-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a sapien justo. Nulla facilisis
+              tristique imperdiet. Nullam a placerat odio. Sed in ex augue. Aliquam porta consectetur lorem sit
+              amet ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+              himenaeos.
+            </p>
+
+            <a class="main-section-2-title-button section-5-description-bottom">
+              <p>Read more</p>
+              <img src="./graphics/icons/arrow-more.svg" alt="показать все" width="13" height="13" />
+            </a>
+          </div>
+
+          <div class="section-5-image-container">
+            <img
+              class="section-5-image"
+              src="./graphics/about-us/about.jpg"
+              alt="about-us"
+              width="556px"
+              height="488px"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <section class="footer-section-1">
+          <h2 class="footer-section-1_title">
+            <a class="header-logo" href="#">
+              <img src="./graphics/logo/logo-black.svg" alt="Логотип сайта компании" />
+            </a>
+          </h2>
+          <p class="footer-section-1_text">
+            We always make our customers happy by providing as many choises as possible
+          </p>
+          <div class="footer-section-1_social">
+            <ul class="footer-section-1_social__list">
+              <li class="footer-section-1_social__item">
+                <a href="https://vk.com/" class="footer-section-1_social__item___facebook">
+                  <img
+                    src="./graphics/socials/facebook.svg"
+                    alt="facebook"
+                    class="facebook"
+                    width="32px"
+                    height="32px"
+                  />
+                </a>
+              </li>
+              <li class="footer-section-1_social__item">
+                <a href="https://vk.com/" class="footer-section-1_social__item___twitter">
+                  <img
+                    src="./graphics/socials/twitter.svg"
+                    alt="twitter"
+                    class="twitter"
+                    width="32px"
+                    height="32px"
+                  />
+                </a>
+              </li>
+              <li class="footer-section-1_social__item">
+                <a href="https://vk.com/" class="footer-section-1_social__item___instagram">
+                  <img
+                    src="./graphics/socials/instagram.svg"
+                    alt="instagram"
+                    class="instagram"
+                    width="32px"
+                    height="32px"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="footer-section-2">
+          <div class="footer-section-2_content">
+            <h3 class="footer-section-2-title">About</h3>
+            <ul class="footer-section-2_list">
+              <li class="footer-section-2_item">
+                <a href="#" class="footer-section-2_item__link">About Us</a>
+              </li>
+              <li class="footer-section-2_item">
+                <a href="#" class="footer-section-2_item__link">Features</a>
+              </li>
+              <li class="footer-section-2_item">
+                <a href="#" class="footer-section-2_item__link">News</a>
+              </li>
+              <li class="footer-section-2_item">
+                <a href="#" class="footer-section-2_item__link">Menu</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-section-2_content">
+            <h3 class="footer-section-2-title">Company</h3>
+            <ul class="footer-section-2_list">
+              <li class="footer-section-2_item">
+                <a href="#" class="footer-section-2_item__link">Why 2rism</a>
+              </li>
+              <li class="footer-section-2_item">
+                <a href="#" class="footer-section-2_item__link">Partner With Us</a>
+              </li>
+              <li class="footer-section-2_item">
+                <a href="#" class="footer-section-2_item__link">FAQ</a>
+              </li>
+              <li class="footer-section-2_item">
+                <a href="#" class="footer-section-2_item__link">Blog</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-section-2_content">
+            <h3 class="footer-section-2-title">Support</h3>
+            <ul class="footer-section-2_list">
+              <li class="footer-section-2_item">
+                <a href="#" class="footer-section-2_item__link">Account</a>
+              </li>
+              <li class="footer-section-2_item">
+                <a href="#" class="footer-section-2_item__link">PaSupport Center</a>
+              </li>
+              <li class="footer-section-2_item">
+                <a href="#" class="footer-section-2_item__link">Feedback</a>
+              </li>
+              <li class="footer-section-2_item">
+                <a href="#" class="footer-section-2_item__link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="footer-section-3">
+          <h2 class="footer-section-3-title">
+            Subscribe on our destination review newsletters
+          </h2>
+
+
+          <form class="footer-section-3-form" action="">
+
+           <div class="footer-section-3-form_wrapper">
+            <input type="text" class="footer-section-3-form_input" value="johndoe@gmail.com" id="e-mail">
+            <label for="e-mail" class="footer-section-3-form_label">Your Email</label>
+           </div>
+
+           <button class="footer-section-3-button">
+            <img src="./graphics/icons/arrow-right-form.svg" alt="кнопка">
+           </button>
+
+
+
+          </form>
+
+
+
+
+
+
+
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
